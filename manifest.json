@@ -1,0 +1,9 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "lang": "en",
+  "name": "code-conquest",
+  "short_name": "code-conquest",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait"
+}
