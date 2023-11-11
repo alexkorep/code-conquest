@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/DALL·E 2023-11-11 21.25.15 - Create a dialogue window for the mobile game 'Code Conquest' in the style of the game screenshot with Gen ID 9ChoeYiJ5JRg1ekn. The dialogue window sho.png-e7231fbedc5296876f397997122c562f.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://raw-assets/DALL·E 2023-11-11 21.25.15 - Create a dialogue window for the mobile game 'Code Conquest' in the style of the game screenshot with Gen ID 9ChoeYiJ5JRg1ekn. The dialogue window sho.png"
+dest_files=[ "res://.import/DALL·E 2023-11-11 21.25.15 - Create a dialogue window for the mobile game 'Code Conquest' in the style of the game screenshot with Gen ID 9ChoeYiJ5JRg1ekn. The dialogue window sho.png-e7231fbedc5296876f397997122c562f.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
