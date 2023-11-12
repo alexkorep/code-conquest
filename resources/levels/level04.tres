@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/level.gd" type="Script" id=1]
+[ext_resource path="res://assets/rooms/04.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+text = "You've got the basics down; now it's time to weave a world with words. Your mission: create a text adventure game, inspired by the legendary “Zork.” Use your newfound programming skills to build a realm of imagination, where players embark on a quest filled with puzzles and peril. "
+image = ExtResource( 2 )
+required_skills = [  ]
+health = 200
+health_restore_per_second = 10
+reward = 0

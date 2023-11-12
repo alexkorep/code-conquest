@@ -10,12 +10,24 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Resource",
-"class": "LevelStructure",
+"class": "Level",
 "language": "GDScript",
-"path": "res://assets/levels/level_structure.gd"
+"path": "res://scripts/level.gd"
+}, {
+"base": "Resource",
+"class": "ReqSkill",
+"language": "GDScript",
+"path": "res://scripts/required_skill.gd"
+}, {
+"base": "Resource",
+"class": "Skill",
+"language": "GDScript",
+"path": "res://scripts/skill.gd"
 } ]
 _global_script_class_icons={
-"LevelStructure": ""
+"Level": "",
+"ReqSkill": "",
+"Skill": ""
 }
 
 [application]

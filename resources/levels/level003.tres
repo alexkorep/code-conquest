@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/level.gd" type="Script" id=1]
+[ext_resource path="res://assets/rooms/03.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+text = "\"ByteQuest: The Future of Computing\" is a must-have magazine for anyone who wants to learn programming. It is full of coding tips, game cheats, and the latest news about computers. Click the image above to talk your dad into getting a subscription to the magazine."
+image = ExtResource( 2 )
+required_skills = [  ]
+health = 200
+health_restore_per_second = 5
+reward = 0

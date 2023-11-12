@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/level.gd" type="Script" id=1]
+[ext_resource path="res://assets/rooms/02.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+text = "The journey to becoming a programming whiz begins with the first line of code. It's time to learn BASIC, the language that has started many on the path to software mastery."
+image = ExtResource( 2 )
+required_skills = [  ]
+health = 20
+health_restore_per_second = 2
+reward = 0

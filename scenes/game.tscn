@@ -6,7 +6,7 @@
 [ext_resource path="res://assets/back.png" type="Texture" id=4]
 
 [sub_resource type="DynamicFont" id=1]
-size = 20
+size = 14
 outline_color = Color( 0, 0, 0, 1 )
 use_filter = true
 font_data = ExtResource( 3 )
@@ -25,18 +25,31 @@ texture = ExtResource( 1 )
 script = ExtResource( 2 )
 
 [node name="HealthProgressBar" type="ProgressBar" parent="."]
-margin_left = 21.0
+margin_left = 33.0
 margin_top = 327.0
-margin_right = 341.0
+margin_right = 331.0
 margin_bottom = 352.0
 
-[node name="TaskDescription" type="Label" parent="."]
-margin_left = 22.0
-margin_top = 404.0
-margin_right = 341.0
-margin_bottom = 593.0
+[node name="TaskDescriptionRect" type="ColorRect" parent="."]
+margin_left = 33.0
+margin_top = 39.0
+margin_right = 331.0
+margin_bottom = 312.0
+color = Color( 0, 0, 0, 0.741176 )
+
+[node name="TaskDescription" type="Label" parent="TaskDescriptionRect"]
+margin_left = 9.0
+margin_top = 10.0
+margin_right = 283.0
+margin_bottom = 257.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "On your 12th birthday your father bought you a computer.
 You decided to become a programmer.
 Click the image above to learn how to use the computer."
 autowrap = true
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="Timer" to="RoomImage" method="_on_Timer_timeout"]
